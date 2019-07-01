@@ -1,0 +1,11 @@
+# to run in background
+
+tail -f /var/log/syslog &
+
+# to check run:
+
+# jobs
+
+# or:
+
+# ps a

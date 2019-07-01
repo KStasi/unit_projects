@@ -1,0 +1,11 @@
+# The file's fields, in order from left to right, are:
+#
+# -user name;
+# -information used to validate a user's password;
+# -user identifier number, used by the operating system for internal purposes;
+# -group identifier number, which identifies the primary group of the user;
+# -gecos field, commentary that describes the person or account;
+# -path to the user's home directory;
+# -program that is started every time the user logs into the system.
+
+sudo awk -F: '{print $1, $3, $6}' /etc/passwd

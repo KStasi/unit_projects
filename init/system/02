@@ -1,0 +1,4 @@
+# hostnamectl - controls host name; allows change it permanently
+# hostname - shows and sets host name; allows change it temporary
+# basically host name could be found and edited in /etc/hostname, /etc/hosts
+hostnamectl set-hostname never-give-up

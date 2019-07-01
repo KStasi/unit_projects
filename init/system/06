@@ -1,0 +1,4 @@
+# few options are available
+sudo service ssh restart
+sudo /etc/init.d/ssh restart
+sudo systemctl restart ssh

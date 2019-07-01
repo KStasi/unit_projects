@@ -1,0 +1,2 @@
+# to kill the job use:
+disown 'tail -f /var/log/syslog' & pkill tail

@@ -1,0 +1,2 @@
+# determines pid of the sshd
+ps -C sshd -o pid=

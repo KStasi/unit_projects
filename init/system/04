@@ -1,0 +1,4 @@
+# few options were investigated
+uptime # date and time isn't specified directly but time since reboot is given
+last reboot | head -n 1 # date and time specified
+who -b # date and time specified

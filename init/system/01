@@ -1,0 +1,30 @@
+#debian version can be found in /etc/os-release, /etc/lsb-release or /proc/version
+#
+# in /etc/os-release
+#
+#NAME - operating system, without a version component, and suitable for presentation to the user.
+#VERSION - the operating system version, excluding any OS name information.
+#ID - the operating system, excluding any version information.
+#ID_LIKE - a space-separated list of operating system identifiers in the same syntax.
+#VERSION_CODENAME - the operating system release code name, excluding any OS name information or release version.
+#VERSION_ID - the operating system version, excluding any OS name information or release code name.
+#PRETTY_NAME - a pretty operating system name in a format suitable for presentation to the user.
+#ANSI_COLOR - a suggested presentation color when showing the OS name on the console.
+#CPE_NAME - a CPE name for the operating system, in URI binding syntax.
+#HOME_URL, DOCUMENTATION_URL, SUPPORT_URL, BUG_REPORT_URL, PRIVACY_POLICY_URL - links to resources on the Internet related to the operating system.
+#BUILD_ID - the system image used as the origin for a distribution (it is not updated with system updates).
+#VARIANT - a specific variant or edition of the operating system suitable for presentation to the user.
+#VARIANT_ID - a specific variant or edition of the operating system.
+#LOGO - the name of an icon as defined by freedesktop.org Icon Theme Specification.
+#
+# in /etc/lsb-release
+#
+#DISTRIB_ID - operating system, without a version component, and suitable for presentation to the user.
+#DISTRIB_RELEASE - the operating system version, excluding any OS name information or release code name.
+#DISTRIB_CODENAME - the operating system release code name, excluding any OS name information or release version.
+#DISTRIB_DESCRIPTION - a pretty operating system name in a format suitable for presentation to the user.
+#
+# in /proc/version
+#
+#single line displayed Linux kernel version
+cat /etc/os-release && cat /etc/lsb-release

@@ -1,0 +1,2 @@
+# reject all input connection
+sudo iptables -P INPUT DROP

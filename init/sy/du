@@ -1,0 +1,11 @@
+drwxr-xr-x  2 root root   4096 Jun 29 19:39 backups
+drwxr-xr-x 16 root root   4096 May 21 16:23 cache
+drwxrwxrwt  2 root root   4096 May 21 19:03 crash
+drwxr-xr-x 70 root root   4096 May 25 18:23 lib
+drwxrwsr-x  2 root staff  4096 Apr 24  2018 local
+drwxrwxr-x 12 root syslog 4096 Jun 29 14:43 log
+drwxrwsr-x  2 root mail   4096 Oct  3  2018 mail
+drwxr-xr-x  2 root root   4096 Oct  3  2018 opt
+drwxr-xr-x  5 root root   4096 May 22 14:41 snap
+drwxr-xr-x  6 root root   4096 Oct 16  2018 spool
+drwxrwxrwt  9 root root   4096 Jun 29 18:20 tmp

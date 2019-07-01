@@ -1,0 +1,3 @@
+# display Bluetooth mac
+# Here more: https://discussions.apple.com/thread/7824243
+networksetup getmacaddress 'Bluetooth PAN' | awk '{print $3}'

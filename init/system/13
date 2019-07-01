@@ -1,0 +1,3 @@
+# too option are available
+ps -A
+ps -e

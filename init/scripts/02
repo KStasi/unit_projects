@@ -1,0 +1,5 @@
+# Sources for packages are installed in /etc/apt/sources.list.
+# For updating sources use 'sudo apt-get update'.
+# For updating packages use 'sudo apt-get upgrade'.
+# Cron helps managing scheduled﻿tasks.
+0 4 * * 1 LOG_FILE=/var/log/update_script.log && apt-get update >> $LOG_FILE && apt-get upgrade >> $LOG_FILE

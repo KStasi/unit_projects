@@ -1,0 +1,4 @@
+# Firewall rules are a filter for packages and traffic controller.
+# There is `iptables` for the control it in kernel level.
+# To show list of firewall rules in the system use:
+sudo iptables -L

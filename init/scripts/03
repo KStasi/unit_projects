@@ -1,0 +1,7 @@
+# displays files in directory passed as parameter
+if [ -d $1 ]
+then
+    ls -S $1
+else
+    echo "Not a dirrectory"
+fi
