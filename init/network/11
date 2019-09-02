@@ -1,0 +1,31 @@
+# find the name and IP address of the
+# device that makes the link between local network and the outside world
+# the output is:
+# traceroute: Warning: slash16.org has multiple addresses; using 99.86.245.142
+# traceroute to slash16.org (99.86.245.142), 64 hops max, 52 byte packets
+#  1  192.168.0.1 (192.168.0.1)  6.398 ms  1.895 ms  2.948 ms
+#  2  * * *
+#  3  172.29.1.253 (172.29.1.253)  13.100 ms  3.964 ms  4.537 ms
+#  4  81-23-23-77.ip.kyivstar.net (81.23.23.77)  16.040 ms  12.005 ms  11.907 ms
+#  5  bpt-b4-link.telia.net (80.239.128.61)  22.889 ms  50.796 ms  26.735 ms
+#  6  bpt-b4-link.telia.net (62.115.116.38)  26.265 ms  20.619 ms  20.331 ms
+#  7  win-bb2-link.telia.net (213.155.137.38)  32.229 ms
+#     win-bb2-link.telia.net (213.155.135.220)  30.142 ms
+#     prag-bb1-link.telia.net (62.115.143.114)  35.897 ms
+#  8  win-b4-link.telia.net (62.115.112.199)  29.873 ms
+#     win-b4-link.telia.net (62.115.113.69)  31.654 ms
+#     win-b4-link.telia.net (62.115.112.199)  30.235 ms
+#  9  amazon-ic-321172.c.telia.net (213.248.94.21)  32.157 ms  30.969 ms  36.913 ms
+# 10  52.93.38.36 (52.93.38.36)  46.191 ms
+#     52.93.38.22 (52.93.38.22)  39.747 ms
+#     52.93.38.134 (52.93.38.134)  45.086 ms
+# 11  150.222.80.49 (150.222.80.49)  36.314 ms
+#     150.222.80.51 (150.222.80.51)  33.594 ms
+#     150.222.80.55 (150.222.80.55)  41.402 ms
+# 12  * * *
+# 13  * * *
+# 14  * * *
+# 15  * * *
+# 16  * * *
+# 17  server-99-86-245-142.vie50.r.cloudfront.net (99.86.245.142)  45.454 ms  33.233 ms  36.154 ms
+# that should be device with nat. it's probably the second one

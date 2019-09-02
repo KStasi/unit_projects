@@ -1,0 +1,2 @@
+# check that the server is reachable from the computer
+ping 10.51.1.253

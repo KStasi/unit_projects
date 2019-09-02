@@ -1,0 +1,7 @@
+# use the Reverse DNS to find out the name of the server
+# server isn't registered
+# nslookup 10.51.1.81
+# Server:		192.168.0.1
+# Address:	192.168.0.1#53
+# ** server can't find 81.1.51.10.in-addr.arpa: NXDOMAIN
+
