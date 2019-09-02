@@ -1,0 +1,2 @@
+# ip of Ethernet interface
+ipconfig getifaddr en0

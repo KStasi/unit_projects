@@ -1,0 +1,9 @@
+# ip address of the DNS that responds to slash16.org
+# DNS server is a computer server that contains a database of public IP addresses
+# and their associated hostnames, and in most cases serves to resolve those names
+# to ip addresses as requested.
+#
+# there are two options:
+# dig slash16.org | awk '{ if ($2 == "SERVER:" ) { print $3 } }' | cut -d "#" -f1
+# or
+nslookup slash16.org | awk '{ if ($1 == "Server:" ) { print $2 } }'

@@ -1,0 +1,6 @@
+# default gateway
+# first node that receive package if the route isn't defined
+# few options are available:
+# route get default | awk '{ if ($1 == "gateway:") {print $2} }'
+# or
+netstat -nr | awk '{ if ($1 == "default") { print $2} }' | head -n 1

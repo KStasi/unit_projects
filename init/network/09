@@ -1,0 +1,2 @@
+# find external api of 42.fr
+dig +short 8.8.8.8 42.fr

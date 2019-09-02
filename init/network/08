@@ -1,0 +1,3 @@
+# find the provider of slash16.org
+# let's fin ips of the domain name and then search for it's provider using whois
+whois $(host slash16.org | awk '{print $4}' | head -n1)

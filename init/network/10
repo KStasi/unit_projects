@@ -1,0 +1,3 @@
+# identify the network devices between the computer and the domain
+# more info: https://mediatemple.net/community/products/dv/204643870/using-the-traceroute-command
+traceroute slash16.org
