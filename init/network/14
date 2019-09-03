@@ -1,0 +1,3 @@
+# file with local DNS entries
+# more info: https://www.liquidweb.com/kb/dns-hosts-file/
+cat /etc/hosts
